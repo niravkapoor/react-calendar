@@ -1,0 +1,23 @@
+// @import '../variables.scss';
+
+.alert-container{
+  background-color: #222;
+  color: #fff;
+  height: 56px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  .message-text{
+    color: #fff;
+  }
+  .button-text{
+    color: #00b9f5;
+    padding: 10px;
+    margin-right: -10px;   
+    cursor: pointer; 
+    background-color: transparent;
+    border: none;
+  }
+}

@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel='preload', href="/#{assetsConfig['app.css']}", as="style")
+    link(rel='preload', href="/#{assetsConfig['manifest.js']}", as="script")
+    link(rel='preload', href="/#{assetsConfig['vendor.js']}", as="script")
+    link(rel='preload', href="/#{assetsConfig['app.js']}", as="script")
+    link(rel='stylesheet', href="/#{assetsConfig['app.css']}")
+  body(class="#{solution}")
+    block content
+    script(src="/#{assetsConfig['manifest.js']}")
+    script(src="/#{assetsConfig['vendor.js']}",defer)
+    script(src="/#{assetsConfig['app.js']}",defer)

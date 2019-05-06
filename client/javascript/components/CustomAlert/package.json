@@ -1,0 +1,6 @@
+{
+  "name": "CustomAlert",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CustomAlert.js"
+}

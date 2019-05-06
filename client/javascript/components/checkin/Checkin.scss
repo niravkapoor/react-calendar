@@ -1,0 +1,66 @@
+.checkin-main {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    .header-lefticon-container{
+        padding-right: 0px;
+        height:56px;
+        width: 56px;
+        display: table;
+        a{
+            display: table-cell;
+            vertical-align: middle;
+            color: #222222;
+            &:focus, &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .header-left-icon{
+        padding: 0 20px;
+    }
+
+    .checkin-container {
+        margin-top: 20px;
+        p {
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.3;
+            text-align: center;
+            color: #222222;
+            a {
+                text-decoration: none;
+                border-bottom: 1px solid #ebebeb;
+                font-size: 14px;
+                line-height: 24px;
+                color: #999999;
+                padding: 5px 20px;
+                text-align: center;
+            }
+        }
+        .ci-heading-ln{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #666666;
+            text-align: center;
+            margin-bottom: 4px !important;
+        }
+        .ci-heading-qs{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1;
+            letter-spacing: -0.9px;
+            color: #222222;
+            text-align: center;
+        }
+    }
+    .divider{
+        height: 2px;
+        width: 32px;
+        background: #f4f4f4;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}

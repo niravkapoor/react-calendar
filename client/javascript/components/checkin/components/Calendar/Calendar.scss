@@ -1,0 +1,120 @@
+.pos-relative{
+    position: relative;
+}
+.outer-container{
+    position: relative;
+}
+.fullCalender{
+    overflow-y: auto;
+    height: 270px;
+    position: relative;
+}
+.cal-monthHead{
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2f2f2f;
+}
+.cal-monthName{
+    font-weight: 700;
+}
+.cal-monthView{
+    display: block;
+}
+.cal-yearName{
+    font-weight: 300;
+}
+.cal-dayHead{
+    margin-top: 16px;
+}
+.cal-dayName, .cal-day{
+    width: 13.28%;
+    padding:0 0.1%;
+    display: inline-block;
+    text-align: center; 
+}
+.cal-dayName {
+    border-bottom: 1px solid #efefef;
+    p{
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 2px;
+        color: #999999;
+        padding-bottom: 13px;
+    }
+}
+.cal-mv-weekRow {
+    margin: 4px 0px !important;
+    div:last-child {
+        margin-bottom: 15px;
+    }
+}
+.cal-day{
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    margin-top: 16px;
+}
+.cal-day {
+    p{
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+        padding: 8px 0px !important;
+        span:not(:empty){
+            cursor: pointer;
+        }
+    }
+}
+.currentDate {
+    border: 1px solid #ebebeb;
+}
+p{
+    margin: 0 !important;
+}
+.fromSecond-month, .fromSecond-monthViews {
+    margin-top: 10px;
+}
+.first-monthView {
+    margin-top: 20px;
+}
+.checkinDate, .checkoutDate, .inbetweenDate {
+    background: #00b9f5 !important;
+    border:1px solid #00b9f5 !important;
+}
+.checkinDate p, .checkoutDate p, .inbetweenDate p {
+    color: #ffffff !important;
+}
+.inbetweenDate{
+    border-radius: 0px !important;
+}
+.norightCurve {
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.checkoutDate{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.checkoutDate-btn{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #00b9f5;
+    margin-bottom: 0px !important;
+    height: 45px;
+    color: #fff;
+}
+.errorCheckout {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.divider{
+    height: 0px;
+    width: 90%;
+    background: #efefef;
+    display: block;
+    margin-bottom: 25px;
+}
